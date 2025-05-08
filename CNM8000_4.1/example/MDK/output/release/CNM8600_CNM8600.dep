@@ -1,0 +1,377 @@
+Dependencies for Project 'CNM8600', Target 'CNM8600': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\startup_hc32l13x.s)(0x6333E3E2)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_CNM8600-IC:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include-IC:\Users\Cyzur123\AppData\Local\Arm\Packs\HDSC\HC32L13x\1.2.0\Device\Include--pd "__UVISION_VERSION SETA 531"--pd "_RTE_ SETA 1"--pd "_RTE_ SETA 1"-o .\output\release\startup_hc32l13x.o--depend .\output\release\startup_hc32l13x.d)
+F (..\..\mcu\common\interrupts_hc32l13x.c)(0x62CE7C53)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/interrupts_hc32l13x.o -MD)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\mcu\common\system_hc32l13x.c)(0x62CE7C53)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/system_hc32l13x.o -MD)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\source\main.c)(0x67BC3383)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/main.o -MD)
+I (..\..\driver\inc\gpio.h)(0x62D61D58)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+I (..\..\driver\inc\dmac.h)(0x62CE7C4D)
+I (..\CN121\CN121_utils.h)(0x67A5DE3A)
+I (..\..\driver\inc\adc.h)(0x62CE7C4D)
+I (..\..\driver\inc\timer3.h)(0x62CE7C4D)
+I (..\..\driver\inc\bgr.h)(0x62CE7C4D)
+I (..\..\driver\inc\uart.h)(0x62D5423D)
+I (..\..\driver\inc\bt.h)(0x62CE7C4D)
+I (..\..\driver\inc\flash.h)(0x6333DFA9)
+I (..\CN121\CN121_API.h)(0x6784D88C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED60BE4)
+I (..\CN121\5p3k_receiver.h)(0x677C9143)
+F (..\..\driver\src\ddl.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/ddl.o -MD)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\sysctrl.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/sysctrl.o -MD)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\adc.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/adc.o -MD)
+I (..\..\driver\inc\adc.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\gpio.c)(0x62D61D25)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/gpio.o -MD)
+I (..\..\driver\inc\gpio.h)(0x62D61D58)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\bgr.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/bgr.o -MD)
+I (..\..\driver\inc\bgr.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\uart.c)(0x62D541BD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/uart.o -MD)
+I (..\..\driver\inc\uart.h)(0x62D5423D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\dmac.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/dmac.o -MD)
+I (..\..\driver\inc\dmac.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\timer3.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/timer3.o -MD)
+I (..\..\driver\inc\timer3.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\bt.c)(0x62CE7C4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/bt.o -MD)
+I (..\..\driver\inc\bt.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\..\driver\src\flash.c)(0x6333DF56)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/flash.o -MD)
+I (..\..\driver\inc\flash.h)(0x6333DFA9)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+F (..\readme.txt)(0x677B78A3)()
+F (..\CN121\CN121_utils.c)(0x67A703CA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/cn121_utils.o -MD)
+I (..\CN121\CN121_utils.h)(0x67A5DE3A)
+I (..\..\driver\inc\adc.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+I (..\..\driver\inc\timer3.h)(0x62CE7C4D)
+I (..\..\driver\inc\gpio.h)(0x62D61D58)
+I (..\..\driver\inc\bgr.h)(0x62CE7C4D)
+I (..\..\driver\inc\uart.h)(0x62D5423D)
+I (..\..\driver\inc\bt.h)(0x62CE7C4D)
+I (..\..\driver\inc\flash.h)(0x6333DFA9)
+I (..\CN121\CN121_API.h)(0x6784D88C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED60BE4)
+F (..\CN121\5p3k_receiver.c)(0x67A5E023)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/5p3k_receiver.o -MD)
+I (..\CN121\5p3k_receiver.h)(0x677C9143)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+I (..\..\driver\inc\timer3.h)(0x62CE7C4D)
+I (..\..\driver\inc\gpio.h)(0x62D61D58)
+I (..\..\driver\inc\bgr.h)(0x62CE7C4D)
+F (..\CN121\CN121_qrs_Det.c)(0x6790B93A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/cn121_qrs_det.o -MD)
+I (..\CN121\CN121_qrs_Det.h)(0x6710862A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED60BE4)
+I (..\CN121\CN121_HR_smooth.h)(0x66F928CF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED60BE4)
+F (..\CN121\CN121_HR_smooth.c)(0x67A73614)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/cn121_hr_smooth.o -MD)
+I (..\CN121\CN121_HR_smooth.h)(0x66F928CF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+F (..\CN121\CN121_ECG_Filter.c)(0x6784DAC6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/cn121_ecg_filter.o -MD)
+I (..\CN121\CN121_ECG_Filter.h)(0x66F8FFA0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED60BE4)
+F (..\CN121\CN121_API.c)(0x679094EF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../mcu/common -I ../source -I ../../driver/inc -I ../CN121-I./RTE/_CNM8600-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/Cyzur123/AppData/Local/Arm/Packs/HDSC/HC32L13x/1.2.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_-o ./output/release/cn121_api.o -MD)
+I (..\CN121\CN121_API.h)(0x6784D88C)
+I (..\CN121\CN121_utils.h)(0x67A5DE3A)
+I (..\..\driver\inc\adc.h)(0x62CE7C4D)
+I (..\..\driver\inc\ddl.h)(0x62CE7C4D)
+I (..\..\mcu\common\base_types.h)(0x62CE7C53)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5ED60BE4)
+I (..\..\mcu\common\board_stkhc32l13x.h)(0x67A715BE)
+I (..\..\mcu\common\hc32l13x.h)(0x677C90A0)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm0plus.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x657FE048)
+I (C:\Users\Cyzur123\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x657FE048)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\..\mcu\common\system_hc32l13x.h)(0x62CE7C53)
+I (..\..\driver\inc\sysctrl.h)(0x62CE7C4D)
+I (..\..\mcu\common\interrupts_hc32l13x.h)(0x62CE7C53)
+I (..\source\ddl_device.h)(0x6333E3E2)
+I (..\..\driver\inc\timer3.h)(0x62CE7C4D)
+I (..\..\driver\inc\gpio.h)(0x62D61D58)
+I (..\..\driver\inc\bgr.h)(0x62CE7C4D)
+I (..\..\driver\inc\uart.h)(0x62D5423D)
+I (..\..\driver\inc\bt.h)(0x62CE7C4D)
+I (..\..\driver\inc\flash.h)(0x6333DFA9)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED60BE4)
+I (..\CN121\CN121_qrs_Det.h)(0x6710862A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED60BE4)
+I (..\CN121\CN121_HR_smooth.h)(0x66F928CF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5ED60BE4)
+I (..\CN121\CN121_ECG_Filter.h)(0x66F8FFA0)
